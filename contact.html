@@ -2,62 +2,80 @@
 <html>
 <head>
 	<title>MH Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
 
-<header id="container">
+<section class="container_top">
 
-	<h1>Meredith Hazan</h1>
+   <header>
 
-	<nav id="navlinks">
+	   <h1>Meredith Hazan</h1>
 
-	   <a href="index.html">About</a>
+	   <nav id="menu">
 
-	   <a href="portfolio.html">Portfolio</a>
+	      <a class="menu_links" href="#">About</a> |
 
-	   <a href="#">Contact</a>
+	      <a class="menu_links" href="portfolio.html">Portfolio</a> |
 
-	</nav>   
+	      <a class="menu_links" href="contact.html">Contact</a>
 
-</header>
+	   </nav>
 
-<section class="main">
+   </header>
+</section>   
 
-    <h2>Contact</h2><hr />
+
+<section class="container_main">
+
+    <article class="main">
+
+       <h2>Contact</h2><hr class="longer_line" />
 	
-	<form>
+	   <form class="form">
 
 		Name<br />
-		<input type="text" name="name">
+		<input type="text" name="name" placeholder="John Smith">
 		<br />
 		Email<br />
-		<input type="text" name="email">
+		<input type="text" name="email" placeholder="example@gmail.com">
 		<br />
 		Message<br />
-		<input type="text" name="message">
+		<textarea name="message" rows="14">
+		</textarea>
 
 		<button>Submit</button>
 
-	</form>
-</section>
+	   </form>
 
+	</article>   
 
-<section>
-	<h2>Connect with Me</h2>
+    <aside>   
 
-	<a href="https://meredithhazan.github.io/" target="_blank"><img src="assets/images/1493249985_github_square_black.png" alt="Github logo" width="55px"></a>
+	    <h3>Connect with Me</h3><hr id="shorter_line" />
 
-	<a href="http://www.linkedin.com/in/meredithhazan/" target="_blank"><img src="assets/images/1493250290_linkedin_square_color.png" alt="LinkedIn logo" width="55px"></a>
+	    <a href="https://meredithhazan.github.io/" target="_blank">
+	    <img class="connect_links" src="assets/images/1493249985_github_square_black.png" alt="Github logo" width="55px"></a>
 
-	<a href="http://stackoverflow.com/users/7692487/meredith-h" target="_blank"><img src="assets/images/1493250399_overflow.png" width="55px" alt="Stack Overflow logo"></a>
+	    <a href="http://www.linkedin.com/in/meredithhazan/" target="_blank">
+	    <img class="connect_links" src="assets/images/1493250290_linkedin_square_color.png" alt="LinkedIn logo" width="55px"></a>
 
- <footer>
+	    <a href="http://stackoverflow.com/users/7692487/meredith-h" target="_blank">
+	    <img class="connect_links" src="assets/images/stack-overflow.svg" alt="Stack Overflow logo" width="55"></a>
+	    
+	</aside>  
+
+ </section>	 
+
+   <footer>
 
 	&#x000A9; Copyright 2017 Meredith Hazan
-	
+
    </footer>
 
-   </section>
+</section>
 
 </body>
 </html>
