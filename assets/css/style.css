@@ -127,9 +127,8 @@ button:hover {
 }
 
 #headshot {
-
 	float: left;
-	padding: 20px;
+	margin: 29px;
 }
 
 p {
